@@ -1,5 +1,5 @@
-import { define as funnyQuote } from './funny-quote';
+import { define as helloWorld } from './hello-world';
 
 export default [
-  funnyQuote
+  helloWorld
 ];

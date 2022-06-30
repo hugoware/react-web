@@ -6,6 +6,7 @@ const PORT = 3001;
 
 // create the main server
 const app = express();
+app.use(express.json());
 
 // wire up all requests
 for (const request of requests) {
